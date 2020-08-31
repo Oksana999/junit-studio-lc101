@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,29 +15,33 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Snvdtr8oVEcWvMSjy8Jh12C3wW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BalancedBracketsTest.emptyTest">
+  <component name="RunManager" selected="JUnit.BonusBinarySearchTest.testNumberExist">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,6 +87,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BonusBinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="testNumberNotFound" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusBinarySearchTest.testNumberExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="testNumberExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusBinarySearchTest.testNumberNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="testNumberNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -107,10 +165,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusBinarySearchTest.testNumberExist" />
+        <item itemvalue="JUnit.BonusBinarySearchTest" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.testNumberNotFound" />
         <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
         <item itemvalue="JUnit.BalancedBracketsTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -124,5 +197,64 @@
       <updated>1572212264650</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="487" y="49" key="#xdebugger.evaluate" timestamp="1598904149765">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="487" y="49" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1598904149765" />
+    <state width="454" height="438" key="DebuggerActiveHint" timestamp="1598906915772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="454" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1598906915772" />
+    <state width="1237" height="295" key="GridCell.Tab.0.bottom" timestamp="1598907241948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="295" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598907241948" />
+    <state width="1237" height="295" key="GridCell.Tab.0.center" timestamp="1598907241947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="295" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598907241947" />
+    <state width="1237" height="295" key="GridCell.Tab.0.left" timestamp="1598907241947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="295" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598907241947" />
+    <state width="1237" height="295" key="GridCell.Tab.0.right" timestamp="1598907241948">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="295" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598907241948" />
+    <state width="1237" height="229" key="GridCell.Tab.1.bottom" timestamp="1598907218052">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="229" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598907218052" />
+    <state width="1237" height="229" key="GridCell.Tab.1.center" timestamp="1598907218052">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="229" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598907218052" />
+    <state width="1237" height="229" key="GridCell.Tab.1.left" timestamp="1598907218052">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="229" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598907218052" />
+    <state width="1237" height="229" key="GridCell.Tab.1.right" timestamp="1598907218052">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="229" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598907218052" />
+    <state x="412" y="43" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598901352665">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="43" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1598901352665" />
+    <state x="371" y="96" key="extract.method.dialog" timestamp="1598907090996">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="96" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1598907090996" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598904436710">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598904436710" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit_studio_lc101$BonusBinarySearchTest_testNumberNotFound.ic" NAME="BonusBinarySearchTest.testNumberNotFound Coverage Results" MODIFIED="1598905075817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
 </project>

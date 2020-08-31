@@ -29,6 +29,10 @@ public class BalancedBrackets {
             } else if (ch == ']') {
                 brackets--;
             }
+            else {
+                throw new IllegalArgumentException("Input string has a set of \"balanced\" brackets");
+
+            }
         }
         return brackets == 0;
     }

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/main/BalancedBrackets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BalancedBrackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" afterDir="false" />
     </list>
@@ -59,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BalancedBracketsTest.noBracketsReturnsFalse">
+  <component name="RunManager" selected="JUnit.BalancedBracketsTest.onlyBracketsReturnsTrue">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -68,6 +66,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BalancedBracketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,23 +97,6 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
       <option name="METHOD_NAME" value="curlyPareBracketsReturnsFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BalancedBracketsTest.curlyPareBracketsReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-studio-lc101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="curlyPareBracketsReturnsTrue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -123,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBracketsTest.pareLettersReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BalancedBracketsTest.notPareBracketsReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -133,14 +130,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="pareLettersReturnsFalse" />
+      <option name="METHOD_NAME" value="notPareBracketsReturnsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedBracketsTest.pareNotBracketsReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BalancedBracketsTest.onlyBracketsReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +147,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
-      <option name="METHOD_NAME" value="pareNotBracketsReturnsFalse" />
+      <option name="METHOD_NAME" value="onlyBracketsReturnsTrue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -184,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BalancedBracketsTest.noBracketsReturnsFalse" />
-        <item itemvalue="JUnit.BalancedBracketsTest.pareLettersReturnsFalse" />
+        <item itemvalue="JUnit.BalancedBracketsTest.onlyBracketsReturnsTrue" />
         <item itemvalue="JUnit.BalancedBracketsTest.curlyPareBracketsReturnsFalse" />
-        <item itemvalue="JUnit.BalancedBracketsTest.curlyPareBracketsReturnsTrue" />
-        <item itemvalue="JUnit.BalancedBracketsTest.pareNotBracketsReturnsFalse" />
+        <item itemvalue="JUnit.BalancedBracketsTest.noBracketsReturnsFalse" />
+        <item itemvalue="JUnit.BalancedBracketsTest.notPareBracketsReturnsFalse" />
+        <item itemvalue="JUnit.BalancedBracketsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,29 +214,47 @@
       <workItem from="1598811465574" duration="6205000" />
       <workItem from="1598894816613" duration="689000" />
       <workItem from="1598897287480" duration="598000" />
+      <workItem from="1598907512031" duration="3921000" />
+      <workItem from="1599101720756" duration="7510000" />
     </task>
+    <task id="LOCAL-00001" summary="polish code, add test cases, practice try/catch in tests">
+      <created>1598909438675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598909438675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="polish code, add test cases, practice try/catch in tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="polish code, add test cases, practice try/catch in tests" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598853316694">
+    <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1598909437440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598853316694" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598853316692">
+    <state x="168" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598909437440" />
+    <state width="1237" height="149" key="GridCell.Tab.0.bottom" timestamp="1599111926037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598853316692" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598853316692">
+    <state width="1237" height="149" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599111926037" />
+    <state width="1237" height="149" key="GridCell.Tab.0.center" timestamp="1599111926037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598853316692" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598853316693">
+    <state width="1237" height="149" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599111926037" />
+    <state width="1237" height="149" key="GridCell.Tab.0.left" timestamp="1599111926037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598853316693" />
+    <state width="1237" height="149" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599111926037" />
+    <state width="1237" height="149" key="GridCell.Tab.0.right" timestamp="1599111926037">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="149" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599111926037" />
     <state x="412" y="43" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598848426947">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

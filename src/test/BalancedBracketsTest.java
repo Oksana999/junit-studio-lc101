@@ -20,6 +20,7 @@ public class BalancedBracketsTest {
    public void onlyBracketsReturnsTrue() {
       assertTrue(BalancedBrackets.hasBalancedBrackets("[]"));
       assertTrue(BalancedBrackets.hasBalancedBrackets("[][][][][][][][][]"));
+      assertTrue(BalancedBrackets.hasBalancedBrackets("[(]"));
    }
 
    @Test
@@ -30,7 +31,7 @@ public class BalancedBracketsTest {
 
    @Test
    public void multiplePareBracketsReturnsTrue() {
-      assertTrue(BalancedBrackets.hasBalancedBrackets("[LaunchCode], Launch[Code], []LaunchCode, , []"));
+      assertTrue(BalancedBrackets.hasBalancedBrackets("[LaunchCode], Launch[Code], []LaunchCode, []"));
 
    }
 
@@ -47,52 +48,53 @@ public class BalancedBracketsTest {
       assertFalse(BalancedBrackets.hasBalancedBrackets("]["));
       assertFalse(BalancedBrackets.hasBalancedBrackets("[LaunchCode"));
       assertFalse(BalancedBrackets.hasBalancedBrackets("]LaunchCode"));
+
    }
 
    @Test
-   public void roundPareBracketsReturnsTrue() {
-      assertTrue(BalancedBrackets.hasBalancedBrackets("()"));
+   public void roundPareBracketsReturnsFalse() {
+     assertTrue(BalancedBrackets.hasBalancedBrackets("()"));
    }
 
-   @Test(expected = IllegalArgumentException.class)
+   @Test
    public void curlyPareBracketsReturnsFalse() {
-      BalancedBrackets.hasBalancedBrackets("{}");
-      fail("Input string should has a set of \"balanced\" brackets");
+      assertTrue(BalancedBrackets.hasBalancedBrackets("{}"));
+
    }
 
    @Test(expected = IllegalArgumentException.class)
    public void pareNotBracketsReturnsFalse() {
 
-      BalancedBrackets.hasBalancedBrackets("!!");
+      BalancedBrackets.hasBalancedParenthesis("!!");
       fail("Input string should has a set of \"balanced\" brackets");
    }
 
    @Test(expected = IllegalArgumentException.class)
    public void pareLettersReturnsFalse() {
 
-      BalancedBrackets.hasBalancedBrackets("AA");
+      BalancedBrackets.hasBalancedParenthesis("AA");
       fail("Input string should has a set of \"balanced\" brackets");
    }
 
    @Test
    public void notPareBracketsReturnsFalse() {
       try {
-         BalancedBrackets.hasBalancedBrackets("[LaunchCode, Launch]Code[, [, ][");
+         BalancedBrackets.hasBalancedParenthesis("[LaunchCode, Launch]Code[, [, ][");
          fail("Exception wasn't thrown");
       } catch (IllegalArgumentException ex) {
          // expected behaviour
-         assertEquals("Input string should has a set of \"balanced\" brackets", ex.getMessage());
+         assertEquals("It is not a parenthesis", ex.getMessage());
       }
    }
 
    @Test
    public void noBracketsReturnsFalse() {
       try {
-         BalancedBrackets.hasBalancedBrackets("LaunchCode");
+         BalancedBrackets.hasBalancedParenthesis("LaunchCode");
          fail("Exception wasn't thrown.");
       } catch (IllegalArgumentException ex) {
          // expected behaviour
-         assertEquals("Input string should has a set of \"balanced\" brackets", ex.getMessage());
+         assertEquals("It is not a parenthesis", ex.getMessage());
       }
    }
 

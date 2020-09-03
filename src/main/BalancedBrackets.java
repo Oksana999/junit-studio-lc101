@@ -28,11 +28,24 @@ public class BalancedBrackets {
             brackets++;
          } else if (ch == ']') {
             brackets--;
-         } else {
-            throw new IllegalArgumentException("Input string should has a set of \"balanced\" brackets");
-
+         }
+         if(brackets < 0) {
+            return false;
          }
       }
       return brackets == 0;
+   }
+
+   public static boolean hasBalancedParenthesis(String str){
+      int counter = 0;
+      for (char ch : str.toCharArray()) {
+         if(ch == '('){
+            counter++;
+         }else if(ch == ')'){
+            counter--;
+         }
+         throw new IllegalArgumentException("It is not a parenthesis");
+      }
+      return counter == 0;
    }
 }
